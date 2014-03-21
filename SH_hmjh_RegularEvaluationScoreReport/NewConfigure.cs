@@ -33,7 +33,13 @@ namespace SH_hmjh_RegularEvaluationScoreReport
             if (checkBoxX1.Checked)
             {
                 Template = new Aspose.Words.Document(new MemoryStream(Properties.Resources.和美_定期評量成績單樣板));
-                this.SubjectLimit = 25;
+                //this.SubjectLimit = 25;                
+                List<string> fields = new List<string>(Template.MailMerge.GetFieldNames());
+                this.SubjectLimit = 0;
+                while (fields.Contains("科目名稱" + (this.SubjectLimit + 1)))
+                {
+                    this.SubjectLimit++;
+                }
             }
         }
         private void UploadTemplate(object sender, EventArgs e)

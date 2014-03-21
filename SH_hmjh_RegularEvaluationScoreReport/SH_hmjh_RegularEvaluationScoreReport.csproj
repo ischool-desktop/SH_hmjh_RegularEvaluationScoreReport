@@ -79,6 +79,11 @@
       <HintPath>library\SmartSchool.Customization.Data.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="SmartSchool.ErrorReporting, Version=1.0.2.13, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\SmartSchool.ErrorReporting.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -134,6 +139,42 @@
     <None Include="Resources\個人學期成績單%28學生清單%29.xls" />
     <None Include="Resources\和美_定期評量成績單樣板.doc" />
     <None Include="Resources\歡樂的合併欄位總表.doc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="library\Aspose.Cells.dll" />
+    <Content Include="library\Aspose.Cells.xml" />
+    <Content Include="library\Aspose.Words.dll" />
+    <Content Include="library\Aspose.Words.xml" />
+    <Content Include="library\DevComponents.DotNetBar2.dll" />
+    <Content Include="library\DevComponents.DotNetBar2.xml" />
+    <Content Include="library\FISCA.Data.dll" />
+    <Content Include="library\FISCA.Data.pdb" />
+    <Content Include="library\FISCA.Data.xml" />
+    <Content Include="library\FISCA.dll" />
+    <Content Include="library\FISCA.pdb" />
+    <Content Include="library\FISCA.Permission.dll" />
+    <Content Include="library\FISCA.Permission.pdb" />
+    <Content Include="library\FISCA.Permission.xml" />
+    <Content Include="library\FISCA.Presentation.dll" />
+    <Content Include="library\FISCA.Presentation.pdb" />
+    <Content Include="library\FISCA.Presentation.xml" />
+    <Content Include="library\FISCA.UDT.dll" />
+    <Content Include="library\FISCA.UDT.pdb" />
+    <Content Include="library\FISCA.UDT.xml" />
+    <Content Include="library\FISCA.xml" />
+    <Content Include="library\K12.Data.dll" />
+    <Content Include="library\K12.Data.pdb" />
+    <Content Include="library\K12.Data.xml" />
+    <Content Include="library\K12.Presentation.dll" />
+    <Content Include="library\K12.Presentation.xml" />
+    <Content Include="library\SHSchool.Data.dll" />
+    <Content Include="library\SHSchool.Data.pdb" />
+    <Content Include="library\SHSchool.Data.xml" />
+    <Content Include="library\SmartSchool.Customization.Data.dll" />
+    <Content Include="library\SmartSchool.Customization.Data.xml" />
+    <Content Include="library\SmartSchool.ErrorReporting.dll" />
+    <Content Include="library\SmartSchool.ErrorReporting.pdb" />
+    <Content Include="library\SmartSchool.ErrorReporting.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
